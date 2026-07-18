@@ -124,7 +124,7 @@ const shitoProducts: ShitoProduct[] = [
     spiceLevelDisplay: 'Pepper Free',
     spiceRating: 0,
     description: 'All the rich, savory umami flavor of traditional Shito without the heat. Perfect for those who love deep flavor but prefer zero spice. Made with the same slow-simmered technique.',
-    image: '/shito-pepperfree-16oz.png',
+    image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600',
     badge: 'Family Friendly',
   },
   {
@@ -134,7 +134,7 @@ const shitoProducts: ShitoProduct[] = [
     spiceLevelDisplay: 'Mild',
     spiceRating: 2,
     description: 'A gentle introduction to West African flavors. Subtle warmth with the classic aromatic blend of dried seafood and spices. Perfect balance for everyday cooking.',
-    image: '/shito-mild-16oz.png',
+    image: 'https://images.pexels.com/photos/4199098/pexels-photo-4199098.jpeg?auto=compress&cs=tinysrgb&w=600',
     badge: 'Best Seller',
   },
   {
@@ -144,7 +144,7 @@ const shitoProducts: ShitoProduct[] = [
     spiceLevelDisplay: 'Spicy',
     spiceRating: 4,
     description: 'Authentic Ghanaian heat with layers of complexity. This is the true Shito experience - bold, fiery, and packed with the traditional depth that makes it legendary.',
-    image: '/shito-spicy-16oz.png',
+    image: 'https://images.pexels.com/photos/2313686/pexels-photo-2313686.jpeg?auto=compress&cs=tinysrgb&w=600',
     badge: 'Authentic',
   },
   {
@@ -154,7 +154,7 @@ const shitoProducts: ShitoProduct[] = [
     spiceLevelDisplay: 'Very Hot',
     spiceRating: 5,
     description: 'For the true spice warriors. Extra hot peppers bring serious fire while maintaining the signature umami complexity. Not for the faint of heart.',
-    image: '/shito-veryhot-16oz.png',
+    image: 'https://images.pexels.com/photos/5490192/pexels-photo-5490192.jpeg?auto=compress&cs=tinysrgb&w=600',
     badge: 'Fiery',
   },
 ];
