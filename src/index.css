@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,9 +15,8 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Custom Scrollbar */
   ::-webkit-scrollbar {
-    width: 8px;
+    width: 6px;
   }
 
   ::-webkit-scrollbar-track {
@@ -35,7 +32,6 @@
     background-color: #FF5A09;
   }
 
-  /* Selection Color */
   ::selection {
     background-color: #FFC83B;
     color: #0B0C10;
@@ -43,11 +39,34 @@
 }
 
 @layer components {
-  /* Line Clamp Utility */
   .line-clamp-2 {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Kente stripe pattern */
+  .kente-stripe {
+    background: repeating-linear-gradient(
+      90deg,
+      #FF5A09 0px,
+      #FF5A09 12px,
+      #FFC83B 12px,
+      #FFC83B 24px,
+      #0B0C10 24px,
+      #0B0C10 36px,
+      #6A9A75 36px,
+      #6A9A75 48px,
+      #FFC83B 48px,
+      #FFC83B 60px
+    );
   }
 }
